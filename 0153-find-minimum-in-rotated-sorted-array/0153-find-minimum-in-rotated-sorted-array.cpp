@@ -1,7 +1,7 @@
 class Solution {
 public:
     int findMin(vector<int>& a) {
-       int u,v;
+       int u;
         int l=0;
         int h=a.size()-1;
         if(a.size()==1){
