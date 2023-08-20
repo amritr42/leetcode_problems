@@ -26,7 +26,7 @@ public:
                 c[4]=true;
                 else 
                 break;
-                if (check(c))
+                if (c[0]&&c[1]&&c[2]&&c[3]&&c[4])
                 t++;
             }
         }
