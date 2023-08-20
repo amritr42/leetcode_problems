@@ -1,7 +1,8 @@
 class Solution {
 public:
     bool canJump(vector<int>& nums) {
-       // int n=sizeof(nums)/sizeof(nums[0]);
+       //int n=sizeof(nums)/sizeof(nums[0]);
+       //cout<<n;
        int n=nums.size();
         if(n==1)
         return true;
