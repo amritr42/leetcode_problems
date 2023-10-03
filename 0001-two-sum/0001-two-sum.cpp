@@ -9,8 +9,10 @@ public:
            int x=target-nums[i];
            if(mp.find(x)!=mp.end()){
                auto it=mp.find(x);
-               c.push_back(it->second);
-               c.push_back(i);
+              // c.push_back(it->second);
+              // c.push_back(i);
+              return {it->second,i};
+              
            }
            mp[nums[i]]=i;
        }
