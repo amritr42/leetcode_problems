@@ -6,7 +6,7 @@ public:
         for(int i=1;i<n+1;i++){
             d[i]=d[i-1];
             if(i>1){
-                d[i]=d[i]+d[i-2];
+                d[i]=d[i-1]+d[i-2];
             }
         }
         return d[n];
